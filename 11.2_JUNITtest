@@ -1,0 +1,21 @@
+package programming_exercises;
+
+class PersonTest {
+
+  public static void main(String[] args) { 
+
+    Person person = new Person("James");
+    Student student = new Student("Meekhoff");
+    Employee employee = new Employee("George");
+    Faculty faculty = new Faculty("Cowan", null, null, null, 0, 0, null, null);
+    Staff staff = new Staff("Katie");
+
+    
+            
+    System.out.println(person.toString());
+    System.out.println(student.toString());
+    System.out.println(employee.toString());
+    System.out.println(faculty.toString());
+    System.out.println(staff.toString());
+  }
+}
